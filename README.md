@@ -9,7 +9,8 @@ This robot is a closed loop control system capable of balancing on its own. It u
 
 ## ❖ How does the robot function ?
 
-https://github.com/Abhishek-Kanti/Self-Balancing-Robot/assets/114488605/b501eb1b-d25b-4776-9f1f-3935bfe19c4c
+
+https://github.com/Abhishek-Kanti/Self-Balancing-Robot/assets/114488605/bb988bdd-2c85-4d5e-ae32-d0552d3e04c5
 
 
 ### Overview:
