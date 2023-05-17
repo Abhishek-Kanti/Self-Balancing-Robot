@@ -28,9 +28,9 @@ The self-balancing robot is powered by lithium-ion batteries, which provide the 
 ### Some Optimisations:
 The Self balancing balancing robot requires fast response. Generally we can at max go upto the sampling time of 10 microseconds (time taken by the void loop to execute the code), so we need to save time. Arduino uses a function called "analogWrite" to generate pwm signals which are used to control the speeed of the motors. This becomes a time taking function when we start to increase the lines of code to add more features like RC. 
 
-To save time I directly controlled the arduino registers and timers to generate pwm signals. I used Arduino timer 2 which sends the pwm signal to the pin number 9 and 10 of the Arduino by default. Through this I also got control over the frequency of the signal. On increasing the frequency of the pwm signal we get more control over the motors, though it has some cons too such as heating of motors but that usually happens at very high frequencies.
+To save time I directly controlled the arduino registers and timers to generate pwm signals. I used Arduino timer 2 which sends the pwm signal to the pin number 9 and 10 of the Arduino by default. Through this I also got control over the frequency of the signal. On increasing the frequency of the PWM signal we get more control over the motors, though it has some cons too such as heating of motors but that usually happens at very high frequencies.
 
-## circuit Diagram:
+## Circuit Diagram:
 
 ![Circuit-Diagram-for-DIY-Self-Balancing-Robot-using-Arduino](https://github.com/Abhishek-Kanti/Self-Balancing-Robot/assets/114488605/ed9ff5af-5fbd-481c-88ec-1b16bd34e29a)
 
