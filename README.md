@@ -30,6 +30,8 @@ The Self balancing balancing robot requires fast response. Generally we can at m
 
 To save time I directly controlled the arduino registers and timers to generate pwm signals. I used Arduino timer 2 which sends the pwm signal to the pin number 9 and 10 of the Arduino by default. Through this I also got control over the frequency of the signal. On increasing the frequency of the PWM signal we get more control over the motors, though it has some cons too such as heating of motors but that usually happens at very high frequencies.
 
+To have a look at the making and the testing of the robot use the following link: https://drive.google.com/file/d/1qswWWC3B3BukO_wg9Rb7r9Tg_VPk7S-a/view?usp=drivesdk
+
 ## Circuit Diagram:
 
 ![Circuit-Diagram-for-DIY-Self-Balancing-Robot-using-Arduino](https://github.com/Abhishek-Kanti/Self-Balancing-Robot/assets/114488605/ed9ff5af-5fbd-481c-88ec-1b16bd34e29a)
